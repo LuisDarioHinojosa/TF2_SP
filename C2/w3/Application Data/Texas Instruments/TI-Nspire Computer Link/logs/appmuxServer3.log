@@ -1,0 +1,21 @@
+2022/02/06 02:38:56.007 INFO [com.ti.eps.navnet.server.RemoteNavnetServer main]: Server main: mainArgs = -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log"
+2022/02/06 02:38:56.062 INFO [com.ti.eps.navnet.server.RemoteNavnetServer main]: Server main: Registry created for port 1099.
+2022/02/06 02:38:56.093 INFO [com.ti.eps.navnet.server.RemoteNavnetServer main]: Server main: Bindings finished -- AppMux Server is ready.
+2022/02/06 02:38:56.901 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: args = -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log" 
+2022/02/06 02:38:56.901 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: clientCount = 0
+2022/02/06 02:38:56.901 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: calling NavNet.init...
+2022/02/06 02:39:01.791 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: NavNet.init complete: clientCount = 1
+2022/02/06 02:39:01.791 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: Starting ping thread to check connections...
+2022/02/06 02:39:01.792 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: Started ping thread to check connections.
+2022/02/06 02:39:01.793 INFO [com.ti.eps.navnet.server.RemoteNavnetServer registerNotifyCallback]: Server registerNotifyCallback: is called.
+2022/02/06 02:39:01.793 INFO [com.ti.eps.navnet.server.RemoteNavnetServer registerNotifyCallback]: Server registerNotifyCallback: First client, register notify callback to navnet
+2022/02/06 02:39:04.024 INFO [com.ti.eps.navnet.server.RemoteNavnetServer$2 nodeNotificationCallback]: Server Node Notify Callback is called. node handle = 442381064 event = 1
+2022/02/06 02:39:04.025 INFO [com.ti.eps.navnet.server.RemoteNavnetServer$2 nodeNotificationCallback]: Server Send Node Notification to client. ADD node handle = 442381064
+2022/02/06 02:39:28.401 INFO [com.ti.eps.navnet.server.RemoteNavnetServer unregisterNotifyCallback]: Server unregisterNotifyCallback: is called.
+2022/02/06 02:39:28.401 INFO [com.ti.eps.navnet.server.RemoteNavnetServer unregisterNotifyCallback]: Server unregisterNotifyCallback: remove client from NodeNotify_ClientList.
+2022/02/06 02:39:28.402 INFO [com.ti.eps.navnet.server.RemoteNavnetServer unregisterNotifyCallback]: Server unregisterNotifyCallback: Last client, unregister to navnet.
+2022/02/06 02:39:28.402 INFO [com.ti.eps.navnet.server.RemoteNavnetServer shutdown]: Server shutdown...
+2022/02/06 02:39:28.402 INFO [com.ti.eps.navnet.server.RemoteNavnetServer shutdown]: Server shutdown: clientCount = 0: Calling NavNet.shutdown...
+2022/02/06 02:39:29.947 INFO [com.ti.eps.navnet.server.RemoteNavnetServer shutdown]: Server shutdown: NavNet.shutdown complete.
+2022/02/06 02:39:29.947 INFO [com.ti.eps.navnet.server.RemoteNavnetServer pingClients]: No more clients, Shutdown Server.  clientCount = 0
+2022/02/06 02:39:29.947 INFO [com.ti.eps.navnet.server.RemoteNavnetServer pingClients]: Server is about to exit.  Calling System.exit()...

@@ -1,0 +1,86 @@
+time,level,component,file,line,message,thread,reserved,src-addr,src-port,dst-addr,dst-port,sequence,payload-size,payload
+00:35:11.487,3,"","connection_manager.c",71,"CM: init_conn_mgr: entered (NavStack: connection manager: 7/1/2008).",0x000051E0
+00:35:11.488,3,"","ConnectionHandle.c",74,"TI_NN_CH_Init: Initialized.",0x000051E0
+00:35:11.488,3,"","connection_manager.c",1940,"CM: RegisterNotifyCallback called.",0x000051E0
+00:35:11.488,3,"","stream_manager.c",482,"CM: processLocalNodeRecvDeferredQueue: entered (NavStack: stream manager: 7/1/2008).;",0x00000A00
+00:35:11.488,3,"","NodeHandle.c",70,"TI_NN_NH_Init: Registered NS Callback.",0x000051E0
+00:35:11.488,3,"","NodeHandle.c",77,"TI_NN_NH_Init: Initialized.",0x000051E0
+00:35:11.488,3,"","NavNetService.c",240,"TI_NN_SS_Init(): Initializing Services.",0x000051E0
+00:35:11.488,2,"","NavnetAPI.c",69,"NavNet build-date: Apr 21 2014, 17:04:28",0x000051E0
+00:35:11.488,3,"","NavStackRouter.c",110,"TI_NS_LoadConnectors Called.",0x000051E0
+00:35:12.043,3,"","navstack.c",779,"found connector func ptr TI_CN_AppClose.",0x000051E0
+00:35:12.498,3,"","navstack.c",779,"found connector func ptr TI_CN_AppClose.",0x000051E0
+00:35:12.498,3,"","navstack.c",419,"Initializing 2 Connector(s).",0x000051E0
+00:35:12.508,3,"","WirelessStack.c",101,"TI_WS_LoadConnectors(): Initializing 0 Connector(s).",0x000051E0
+00:35:12.508,3,"","login.c",484,"TI_NN_LoginServicePrestart(): Start Login service.",0x000051E0
+00:35:12.508,3,"","NavNetService.c",320,"TI_NN_SS_StartService(): Starting Service: LOGIN(0x4050)",0x000051E0
+00:35:12.508,3,"","service_manager.c",273,"ns_TI_NS_StartService(): Starting server-side service: port 0x4050, '.NS_SVC.LOGIN' service.",0x000051E0
+00:35:12.508,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x4050 name=<.NS_SVC.LOGIN> ",0x000051E0
+00:35:12.508,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x4050 <.NS_SVC.LOGIN>",0x000051E0
+00:35:12.511,3,"","NodeHandle.c",431,"TI_NN_NH_RegisterNotifyCallback: Registered NodeHandle Callback.",0x000051E0
+00:36:35.994,3,"","NodeHandle.c",448,"TI_NN_NH_UnregisterNotifyCallback: Unregistered NodeHandle Callback.",0x000051E0
+00:36:35.995,3,"","NavnetAPI.c",94,"TI_NN_Shutdown Called.",0x000051E0
+00:36:35.995,3,"","navstack.c",956,"NStack: TI_NS_AppClose called.",0x000051E0
+00:36:37.003,3,"","NavStackRouter.c",129,"TI_NS_ShutdownConnectors Called.",0x000051E0
+00:36:37.003,3,"","navstack.c",458,"ns_TI_NS_ShutdownConnectors Called.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: LOGIN...",0x000051E0
+00:36:37.547,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x4050, name=.NS_SVC.LOGIN",0x000051E0
+00:36:37.547,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x4050 from list",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.547,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.547,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x000051E0
+00:36:37.548,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x000051E0
+00:36:37.548,3,"","NavNetService.c",264,"TI_NN_SS_Destroy(): Destroyed All Services.",0x000051E0
+00:36:37.548,3,"","connection_manager.c",2004,"CM: UnregisterNotifyCallback called.",0x000051E0
+00:36:37.548,3,"","NodeHandle.c",96,"TI_NN_NH_Destroy: Unregistered NS Callback.",0x000051E0
+00:36:37.548,3,"","NodeHandle.c",107,"TI_NN_NH_Destroy: Destroyed.",0x000051E0
+00:36:37.548,3,"","NavStackRouter.c",96,"TI_NS_shutdownNavstack Called.",0x000051E0
+00:36:37.548,3,"","navstack.c",480,"ns_TI_NS_shutdownNavstack Called.",0x000051E0
+00:36:37.548,3,"","NavStackRouter.c",129,"TI_NS_ShutdownConnectors Called.",0x000051E0
+00:36:37.548,3,"","navstack.c",458,"ns_TI_NS_ShutdownConnectors Called.",0x000051E0
+00:36:37.548,2,"","stream_manager.c",530,"Finishing up LOCAL receive deferred queue thread: 100.0;",0x00000A00
+00:36:37.548,2,"","connection_manager.c",767,"CM: Removed queues and threads for node: (0x19a009e0)",0x000051E0
+00:36:37.548,2,"","connection_manager.c",398,"CM: shutdown_conn_mgr: completed",0x000051E0
+00:36:37.549,3,"","NavnetAPI.c",106,"TI_NN_Shutdown Ended.",0x000051E0

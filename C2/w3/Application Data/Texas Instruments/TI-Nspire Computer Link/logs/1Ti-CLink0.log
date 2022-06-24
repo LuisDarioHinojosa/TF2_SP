@@ -1,0 +1,71 @@
+mar 06, 2022 12:35:01 AM com.ti.eps.pxconnect.ApplicationMain main
+Información: Synthetica version: 2.18.0 Build 23
+mar 06, 2022 12:35:01 AM com.ti.et.navnetcommproxy.NavNetCommProxy <init>
+Información: Calling NavNet.init( -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log" -r "C:\Program Files (x86)\TI Education\TI-Nspire Computer Link\jre\bin" )
+mar 06, 2022 12:35:01 AM com.ti.eps.navnet.NavNet init
+Información: ClientID9902: Client init: args = -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log" 
+mar 06, 2022 12:35:01 AM com.ti.eps.navnet.NavNet init
+Información: ClientID9902: Client init: logpath = C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\
+mar 06, 2022 12:35:01 AM com.ti.eps.navnet.NavNet init
+Información: ClientID9902: Client init: shutdown hook initiated.
+mar 06, 2022 12:35:01 AM com.ti.eps.navnet.NavNet ConnectRMIServer
+Información: ClientID9902: AppMux Client Trying to connect to Remote Navnet Server: //localhost:1099/RemoteNavnetServer
+mar 06, 2022 12:35:01 AM com.ti.eps.navnet.NavNet ConnectRMIServer
+Información: ClientID9902: Client: We got registry!
+mar 06, 2022 12:35:05 AM com.ti.eps.navnet.NavNet ConnectRMIServer
+Información: ClientID9902: ConnectionException, server is not started
+mar 06, 2022 12:35:05 AM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID9902: Try to execute the server launcher...
+mar 06, 2022 12:35:05 AM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID9902: -> Java.exe Path = C:\Program Files (x86)\TI Education\TI-Nspire Computer Link\jre\bin\java.exe
+mar 06, 2022 12:35:05 AM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID9902: -> Navnet Jar Path = /C:/Program Files (x86)/TI Education/TI-Nspire Computer Link/lib/navnet.jar
+mar 06, 2022 12:35:06 AM com.ti.eps.navnet.NavNet getExecArray
+Información: ClientID9902:  Client init: exec[14]: [0]=C:\Program Files (x86)\TI Education\TI-Nspire Computer Link\jre\bin\java.exe [1]=-XX:ErrorFile=C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\NN-crash-20220306-003506.log [2]=-XX:OnError=ProcessCrash.bat [3]=-Djava.rmi.server.hostname=localhost [4]=-Djava.rmi.server.useLocalHostname=true [5]=-cp [6]=C:/Program Files (x86)/TI Education/TI-Nspire Computer Link/lib/navnet.jar [7]=com.ti.eps.navnet.server.RemoteNavnetServer [8]=-c [9]=0 [10]=-d [11]=3 [12]=-l [13]=C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log
+mar 06, 2022 12:35:06 AM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID9902:  AppMux Server has been launched on PC
+mar 06, 2022 12:35:06 AM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID9902: Start threads to read Stdout and Stderr
+mar 06, 2022 12:35:07 AM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID9902: Attempting to connect to server: //localhost:1099/RemoteNavnetServer
+mar 06, 2022 12:35:07 AM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID9902: Client Lookup Success.  Client connected to Server: //localhost:1099/RemoteNavnetServer
+mar 06, 2022 12:35:07 AM com.ti.eps.navnet.NavNet ConnectRMIServer
+Información: ClientID9902: RMI Client successfully connected to RMI Navnet server
+mar 06, 2022 12:35:07 AM com.ti.eps.navnet.NavNet init
+Información: ClientID9902: Client init: calling remoteNavnetServer.init
+mar 06, 2022 12:35:12 AM com.ti.eps.navnet.NavNet registerNotifyCallback
+Información: ClientID9902: Client registerNotifyCallback: calling navnet register notify callback.
+mar 06, 2022 12:35:12 AM com.ti.eps.navnet.NavNet registerNotifyCallback
+Información: ClientID9902: Client registerNotifyCallback: register success.
+mar 06, 2022 12:35:13 AM com.ti.et.lb.factory.LessonBundlePXFactory <init>
+Grave: Running Lesson Bundle Factory with no  main frame or Device Instance
+mar 06, 2022 12:35:13 AM com.ti.et.fileConverter.FileConverter <clinit>
+Información: Path to store converted files: Documentos\TI-Nspire\File_Converter
+mar 06, 2022 12:35:13 AM com.ti.eps.pxconnect.gui.deviceExplorer.FileTable <init>
+Información: save to HH :false
+mar 06, 2022 12:35:14 AM com.ti.eps.pxconnect.gui.deviceExplorer.FileTable <init>
+Información: save to HH :false
+mar 06, 2022 12:35:14 AM com.ti.eps.pxconnect.util.webUpdate.UpgradeProxy UpgradeProxy
+Información: Found proxy env var set to [naucmwebproxy.naucm.ext.ti.com:80]
+mar 06, 2022 12:35:14 AM com.ti.eps.pxconnect.ApplicationMain$1 run
+Información: Calling UpgradeAPI.autoUpgrade
+mar 06, 2022 12:35:14 AM com.ti.et.utils.upgrade.connections.JsonSoftwareUpdateConnection <clinit>
+Información: Connecting to http://education.ti.com/Services/Notifications/Update.svc/NspireUpdate
+mar 06, 2022 12:35:16 AM com.ti.et.utils.upgrade.requests.JsonSoftwareUpdateRequest getRequest
+Información: JSON request built successfully: {"languageCode":"es","currentVersion":"3.9.0.455","shortName":"SwWinCLink"}
+mar 06, 2022 12:35:16 AM com.ti.et.utils.upgrade.connections.JsonSoftwareUpdateConnection askForUpdateInformation
+Información: JSON Response from server: {"productName":"TI-Nspire Computer Link Software","shortName":"SwWinCLink","upToDate":true}
+
+mar 06, 2022 12:35:16 AM com.ti.et.utils.upgrade.DefaultUpgradeHandler done
+Información: 
+mar 06, 2022 12:35:16 AM com.ti.et.utils.upgrade.UpgradeAPI$1 run
+Información: Software is up to date, no upgrade needed.
+mar 06, 2022 12:36:35 AM com.ti.et.navnetcommproxy.NavNetCommProxy shutdown
+Información: Calling NavNet.shutdown...
+mar 06, 2022 12:36:35 AM com.ti.eps.navnet.NavNet shutdown
+Información: ClientID9902: Client shutdown...
+mar 06, 2022 12:36:35 AM com.ti.eps.navnet.NavNet shutdown
+Información: ClientID9902: Client shutdown: remoteNavnetServer.shutdown...
+mar 06, 2022 12:36:37 AM com.ti.eps.navnet.NavNet shutdown
+Información: ClientID9902: Client shutdown: remoteNavnetServer.shutdown success -- Last Client Shutdown -- Server will exit

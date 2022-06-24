@@ -1,0 +1,6 @@
+2022/05/25 15:48:46.971 INFO [com.ti.eps.navnet.server.RemoteNavnetServer main]: Server main: mainArgs = -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log"
+2022/05/25 15:48:48.049 INFO [com.ti.eps.navnet.server.RemoteNavnetServer main]: Server main: Registry created for port 1099.
+2022/05/25 15:48:48.080 INFO [com.ti.eps.navnet.server.RemoteNavnetServer main]: Server main: Bindings finished -- AppMux Server is ready.
+2022/05/25 15:48:48.596 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: args = -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log" 
+2022/05/25 15:48:48.596 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: clientCount = 0
+2022/05/25 15:48:48.596 INFO [com.ti.eps.navnet.server.RemoteNavnetServer init]: Server init: calling NavNet.init...

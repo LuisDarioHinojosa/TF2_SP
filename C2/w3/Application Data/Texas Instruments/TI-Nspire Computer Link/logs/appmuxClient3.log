@@ -1,0 +1,23 @@
+2022/02/06 02:38:51.642 INFO [com.ti.eps.navnet.NavNet init]: ClientID2614: Client init: args = -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log" 
+2022/02/06 02:38:51.646 INFO [com.ti.eps.navnet.NavNet init]: ClientID2614: Client init: logpath = C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\
+2022/02/06 02:38:51.651 INFO [com.ti.eps.navnet.NavNet init]: ClientID2614: Client init: shutdown hook initiated.
+2022/02/06 02:38:51.652 INFO [com.ti.eps.navnet.NavNet ConnectRMIServer]: ClientID2614: AppMux Client Trying to connect to Remote Navnet Server: //localhost:1099/RemoteNavnetServer
+2022/02/06 02:38:51.741 INFO [com.ti.eps.navnet.NavNet ConnectRMIServer]: ClientID2614: Client: We got registry!
+2022/02/06 02:38:55.804 INFO [com.ti.eps.navnet.NavNet ConnectRMIServer]: ClientID2614: ConnectionException, server is not started
+2022/02/06 02:38:55.807 INFO [com.ti.eps.navnet.NavNet startRmiServerToConnect]: ClientID2614: Try to execute the server launcher...
+2022/02/06 02:38:55.810 INFO [com.ti.eps.navnet.NavNet startRmiServerToConnect]: ClientID2614: -> Java.exe Path = C:\Program Files (x86)\TI Education\TI-Nspire Computer Link\jre\bin\java.exe
+2022/02/06 02:38:55.810 INFO [com.ti.eps.navnet.NavNet startRmiServerToConnect]: ClientID2614: -> Navnet Jar Path = /C:/Program Files (x86)/TI Education/TI-Nspire Computer Link/lib/navnet.jar
+2022/02/06 02:38:55.811 INFO [com.ti.eps.navnet.NavNet getExecArray]: ClientID2614:  Client init: exec[14]: [0]=C:\Program Files (x86)\TI Education\TI-Nspire Computer Link\jre\bin\java.exe [1]=-XX:ErrorFile=C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\NN-crash-20220206-023855.log [2]=-XX:OnError=ProcessCrash.bat [3]=-Djava.rmi.server.hostname=localhost [4]=-Djava.rmi.server.useLocalHostname=true [5]=-cp [6]=C:/Program Files (x86)/TI Education/TI-Nspire Computer Link/lib/navnet.jar [7]=com.ti.eps.navnet.server.RemoteNavnetServer [8]=-c [9]=0 [10]=-d [11]=3 [12]=-l [13]=C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log
+2022/02/06 02:38:55.855 INFO [com.ti.eps.navnet.NavNet startRmiServerToConnect]: ClientID2614:  AppMux Server has been launched on PC
+2022/02/06 02:38:55.856 INFO [com.ti.eps.navnet.NavNet startRmiServerToConnect]: ClientID2614: Start threads to read Stdout and Stderr
+2022/02/06 02:38:56.858 INFO [com.ti.eps.navnet.NavNet startRmiServerToConnect]: ClientID2614: Attempting to connect to server: //localhost:1099/RemoteNavnetServer
+2022/02/06 02:38:56.895 INFO [com.ti.eps.navnet.NavNet startRmiServerToConnect]: ClientID2614: Client Lookup Success.  Client connected to Server: //localhost:1099/RemoteNavnetServer
+2022/02/06 02:38:56.895 INFO [com.ti.eps.navnet.NavNet ConnectRMIServer]: ClientID2614: RMI Client successfully connected to RMI Navnet server
+2022/02/06 02:38:56.896 INFO [com.ti.eps.navnet.NavNet init]: ClientID2614: Client init: calling remoteNavnetServer.init
+2022/02/06 02:39:01.792 INFO [com.ti.eps.navnet.NavNet registerNotifyCallback]: ClientID2614: Client registerNotifyCallback: calling navnet register notify callback.
+2022/02/06 02:39:01.794 INFO [com.ti.eps.navnet.NavNet registerNotifyCallback]: ClientID2614: Client registerNotifyCallback: register success.
+2022/02/06 02:39:04.027 INFO [com.ti.eps.navnet.NavNet NodeNotifyCallback]: ClientID2614: Client NodeNotifyCallback: received notify event. ADD node handle = 442381064
+2022/02/06 02:39:04.027 INFO [com.ti.eps.navnet.NavNet NodeNotifyCallback]: ClientID2614: Client NodeNotifyCallback: Calling application notify callback.
+2022/02/06 02:39:28.400 INFO [com.ti.eps.navnet.NavNet shutdown]: ClientID2614: Client shutdown...
+2022/02/06 02:39:28.402 INFO [com.ti.eps.navnet.NavNet shutdown]: ClientID2614: Client shutdown: remoteNavnetServer.shutdown...
+2022/02/06 02:39:29.947 INFO [com.ti.eps.navnet.NavNet shutdown]: ClientID2614: Client shutdown: remoteNavnetServer.shutdown success -- Last Client Shutdown -- Server will exit

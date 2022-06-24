@@ -1,0 +1,40 @@
+may 25, 2022 3:48:40 PM com.ti.eps.pxconnect.ApplicationMain main
+Información: Synthetica version: 2.18.0 Build 23
+may 25, 2022 3:48:40 PM com.ti.et.navnetcommproxy.NavNetCommProxy <init>
+Información: Calling NavNet.init( -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log" -r "C:\Program Files (x86)\TI Education\TI-Nspire Computer Link\jre\bin" )
+may 25, 2022 3:48:40 PM com.ti.eps.navnet.NavNet init
+Información: ClientID6174: Client init: args = -c 0 -d 3 -l "C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log" 
+may 25, 2022 3:48:40 PM com.ti.eps.navnet.NavNet init
+Información: ClientID6174: Client init: logpath = C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\
+may 25, 2022 3:48:40 PM com.ti.eps.navnet.NavNet init
+Información: ClientID6174: Client init: shutdown hook initiated.
+may 25, 2022 3:48:40 PM com.ti.eps.navnet.NavNet ConnectRMIServer
+Información: ClientID6174: AppMux Client Trying to connect to Remote Navnet Server: //localhost:1099/RemoteNavnetServer
+may 25, 2022 3:48:40 PM com.ti.eps.navnet.NavNet ConnectRMIServer
+Información: ClientID6174: Client: We got registry!
+may 25, 2022 3:48:44 PM com.ti.eps.navnet.NavNet ConnectRMIServer
+Información: ClientID6174: ConnectionException, server is not started
+may 25, 2022 3:48:44 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174: Try to execute the server launcher...
+may 25, 2022 3:48:44 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174: -> Java.exe Path = C:\Program Files (x86)\TI Education\TI-Nspire Computer Link\jre\bin\java.exe
+may 25, 2022 3:48:44 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174: -> Navnet Jar Path = /C:/Program Files (x86)/TI Education/TI-Nspire Computer Link/lib/navnet.jar
+may 25, 2022 3:48:44 PM com.ti.eps.navnet.NavNet getExecArray
+Información: ClientID6174:  Client init: exec[14]: [0]=C:\Program Files (x86)\TI Education\TI-Nspire Computer Link\jre\bin\java.exe [1]=-XX:ErrorFile=C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\NN-crash-20220525-154844.log [2]=-XX:OnError=ProcessCrash.bat [3]=-Djava.rmi.server.hostname=localhost [4]=-Djava.rmi.server.useLocalHostname=true [5]=-cp [6]=C:/Program Files (x86)/TI Education/TI-Nspire Computer Link/lib/navnet.jar [7]=com.ti.eps.navnet.server.RemoteNavnetServer [8]=-c [9]=0 [10]=-d [11]=3 [12]=-l [13]=C:\Users\luisd\OneDrive\Application Data\Texas Instruments\TI-Nspire Computer Link\logs\navnetlog.log
+may 25, 2022 3:48:44 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174:  AppMux Server has been launched on PC
+may 25, 2022 3:48:44 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174: Start threads to read Stdout and Stderr
+may 25, 2022 3:48:45 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174: Attempting to connect to server: //localhost:1099/RemoteNavnetServer
+may 25, 2022 3:48:47 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174: Failed on server lookup with connection error for //localhost:1099/RemoteNavnetServer (counter = 1)
+may 25, 2022 3:48:48 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174: Attempting to connect to server: //localhost:1099/RemoteNavnetServer
+may 25, 2022 3:48:48 PM com.ti.eps.navnet.NavNet startRmiServerToConnect
+Información: ClientID6174: Client Lookup Success.  Client connected to Server: //localhost:1099/RemoteNavnetServer
+may 25, 2022 3:48:48 PM com.ti.eps.navnet.NavNet ConnectRMIServer
+Información: ClientID6174: RMI Client successfully connected to RMI Navnet server
+may 25, 2022 3:48:48 PM com.ti.eps.navnet.NavNet init
+Información: ClientID6174: Client init: calling remoteNavnetServer.init

@@ -1,0 +1,185 @@
+time,level,component,file,line,message,thread,reserved,src-addr,src-port,dst-addr,dst-port,sequence,payload-size,payload
+12:42:52.516,3,"","connection_manager.c",71,"CM: init_conn_mgr: entered (NavStack: connection manager: 7/1/2008).",0x0000429C
+12:42:52.516,3,"","ConnectionHandle.c",74,"TI_NN_CH_Init: Initialized.",0x0000429C
+12:42:52.516,3,"","stream_manager.c",482,"CM: processLocalNodeRecvDeferredQueue: entered (NavStack: stream manager: 7/1/2008).;",0x000033FC
+12:42:52.516,3,"","connection_manager.c",1940,"CM: RegisterNotifyCallback called.",0x0000429C
+12:42:52.516,3,"","NodeHandle.c",70,"TI_NN_NH_Init: Registered NS Callback.",0x0000429C
+12:42:52.516,3,"","NodeHandle.c",77,"TI_NN_NH_Init: Initialized.",0x0000429C
+12:42:52.516,3,"","NavNetService.c",240,"TI_NN_SS_Init(): Initializing Services.",0x0000429C
+12:42:52.516,2,"","NavnetAPI.c",69,"NavNet build-date: Apr 21 2014, 17:04:28",0x0000429C
+12:42:52.516,3,"","NavStackRouter.c",110,"TI_NS_LoadConnectors Called.",0x0000429C
+12:42:52.545,3,"","navstack.c",779,"found connector func ptr TI_CN_AppClose.",0x0000429C
+12:42:52.569,3,"","navstack.c",779,"found connector func ptr TI_CN_AppClose.",0x0000429C
+12:42:52.569,3,"","navstack.c",419,"Initializing 2 Connector(s).",0x0000429C
+12:42:52.580,3,"","WirelessStack.c",101,"TI_WS_LoadConnectors(): Initializing 0 Connector(s).",0x0000429C
+12:42:52.580,3,"","login.c",484,"TI_NN_LoginServicePrestart(): Start Login service.",0x0000429C
+12:42:52.580,3,"","NavNetService.c",320,"TI_NN_SS_StartService(): Starting Service: LOGIN(0x4050)",0x0000429C
+12:42:52.580,3,"","service_manager.c",273,"ns_TI_NS_StartService(): Starting server-side service: port 0x4050, '.NS_SVC.LOGIN' service.",0x0000429C
+12:42:52.580,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x4050 name=<.NS_SVC.LOGIN> ",0x0000429C
+12:42:52.580,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x4050 <.NS_SVC.LOGIN>",0x0000429C
+12:42:52.583,3,"","NodeHandle.c",431,"TI_NN_NH_RegisterNotifyCallback: Registered NodeHandle Callback.",0x0000429C
+12:42:53.820,3,"","connection_manager.c",1494,"CM: _____ streamChangeCallback called: cnhp=19b738b8",0x00002CB8
+12:42:53.820,3,"","connection_manager.c",1509,"CM: StreamChangeCallback: Connector returned 0 entries",0x00002CB8
+12:42:53.820,3,"","connection_manager.c",1522,"CM: StreamChangeCallback: 0 entries to be added...",0x00002CB8
+12:42:53.820,3,"","connection_manager.c",1580,"CM: StreamChangeCallback: 0 entries to be removed...",0x00002CB8
+12:42:54.287,3,"","connection_manager.c",1494,"CM: _____ streamChangeCallback called: cnhp=19b738b8",0x00002CB8
+12:42:54.287,3,"","connection_manager.c",1509,"CM: StreamChangeCallback: Connector returned 1 entries",0x00002CB8
+12:42:54.287,3,"","connection_manager.c",1522,"CM: StreamChangeCallback: 1 entries to be added...",0x00002CB8
+12:42:54.287,3,"","connection_manager.c",1563,"CM: _____ Adding stream: \\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec}, type = 1",0x00002CB8
+12:42:54.288,3,"","connection_manager.c",1767,"CM: _____ Assigned stream \\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec} = addr 100.1",0x00002CB8
+12:42:54.288,3,"","connection_manager.c",1580,"CM: StreamChangeCallback: 0 entries to be removed...",0x00002CB8
+12:42:54.290,3,"","stream_manager.c",656,"Remote Stream (\\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec}) RX buf: 0x1a2b3078: 100.1",0x00003C64
+12:42:54.802,3,"","internal_services.c",163,"IS: RECV ADDR PKT 0x1a2b4080 from 100.1",0x00003C64,,0.0:4003 0.0:4003 [seq=1] [siz=2]: 0f ec
+12:42:54.802,3,"","internal_services.c",178,"IS: processAddress: Requested max payload=4076 for 100.1 (\\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec})",0x00003C64
+12:42:54.802,3,"","internal_services.c",210,"IS: processAddress: Assigned max payload=4076 for 100.1 (\\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec})",0x00003C64
+12:42:54.802,3,"","navticks.c",37,"Time: 1631209374.802  DST: 1  Timezone: 21600;",0x00003C64
+12:42:54.802,3,"","stream_manager.c",1899,"NS: Send addr assign pkt 0x19b7ef90",0x00003C64,,100.0:4003 100.1:4003 [seq=1] [siz=24]: 64 01 ff 00 00 00 0f ec 61 3a 47 9e 00 00 03 22 00 00 54 60 00 00 00 01
+12:42:54.802,3,"","internal_services.c",235,"IS: (ADDR TTL=0x0) ACK WINDOW SIZE = 1: 100.1",0x00003C64
+12:42:54.802,3,"","connection_manager.c",1918,"CM: node_notify_cb: 100.1, event_type 0x00000001, np 0x19B7B610 (\\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec})",0x00003C64
+12:42:54.802,3,"","NodeHandle.c",131,"TI_NN_NH_CreateNode: Added Node for addr=100.1",0x00003C64
+12:42:54.832,3,"","nodeinfo.c",441,"TI_NN_GetNodeInfo:100.1 Get node information.",0x0000429C
+12:42:54.832,3,"","service_manager.c",273,"ns_TI_NS_StartService(): Starting server-side service: port 0x8000, '100.0:0x8000::100.1:INFO' service.",0x0000429C
+12:42:54.832,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x8000 name=<100.0:0x8000::100.1:INFO> ",0x0000429C
+12:42:54.832,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x8000 <100.0:0x8000::100.1:INFO>",0x0000429C
+12:42:54.832,3,"","ConnectionHandle.c",268,"TI_NN_CH_ClientConnect: Client Connection: 100.0:0x8000::100.1:INFO",0x0000429C
+12:42:54.896,3,"","ConnectionHandle.c",291,"TI_NN_CH_ClientDisconnect: Client Disconnect: 100.0:0x8000::100.1:INFO",0x0000429C
+12:42:54.896,3,"","ConnectionHandle.c",823,"TI_NN_CH:sendEClosePacket(): To: 100.1:INFO",0x0000429C
+12:42:54.900,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x8000, name=100.0:0x8000::100.1:INFO",0x0000429C
+12:42:54.900,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x8000 from list",0x0000429C
+12:43:01.904,3,"","service_manager.c",269,"ns_TI_NS_StartService(): Starting client-side service request: port 0x8001, '100.0:0x8001::100.1:SYNC' service.",0x0000429C
+12:43:01.904,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x8001 name=<100.0:0x8001::100.1:SYNC> ",0x0000429C
+12:43:01.904,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x8001 <100.0:0x8001::100.1:SYNC>",0x0000429C
+12:43:01.904,3,"","ConnectionHandle.c",268,"TI_NN_CH_ClientConnect: Client Connection: 100.0:0x8001::100.1:SYNC",0x0000429C
+12:43:01.910,3,"","sync.c",385,"TI_NN_GetFileAttributes(): [100.0:0x8001::100.1:SYNC]: remoteNodePath</>",0x0000429C
+12:43:01.939,3,"","ConnectionHandle.c",291,"TI_NN_CH_ClientDisconnect: Client Disconnect: 100.0:0x8001::100.1:SYNC",0x0000429C
+12:43:01.939,3,"","ConnectionHandle.c",823,"TI_NN_CH:sendEClosePacket(): To: 100.1:SYNC",0x0000429C
+12:43:01.942,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x8001, name=100.0:0x8001::100.1:SYNC",0x0000429C
+12:43:01.942,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x8001 from list",0x0000429C
+12:43:01.945,3,"","service_manager.c",269,"ns_TI_NS_StartService(): Starting client-side service request: port 0x8002, '100.0:0x8002::100.1:SYNC' service.",0x0000429C
+12:43:01.945,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x8002 name=<100.0:0x8002::100.1:SYNC> ",0x0000429C
+12:43:01.945,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x8002 <100.0:0x8002::100.1:SYNC>",0x0000429C
+12:43:01.945,3,"","ConnectionHandle.c",268,"TI_NN_CH_ClientConnect: Client Connection: 100.0:0x8002::100.1:SYNC",0x0000429C
+12:43:01.946,3,"","sync.c",448,"TI_NN_DirEnumInit(): [100.0:0x8002::100.1:SYNC]: remoteFolder</>",0x0000429C
+12:43:03.315,3,"","ConnectionHandle.c",291,"TI_NN_CH_ClientDisconnect: Client Disconnect: 100.0:0x8002::100.1:SYNC",0x0000429C
+12:43:03.315,3,"","ConnectionHandle.c",823,"TI_NN_CH:sendEClosePacket(): To: 100.1:SYNC",0x0000429C
+12:43:03.319,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x8002, name=100.0:0x8002::100.1:SYNC",0x0000429C
+12:43:03.319,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x8002 from list",0x0000429C
+12:43:03.385,3,"","service_manager.c",269,"ns_TI_NS_StartService(): Starting client-side service request: port 0x8003, '100.0:0x8003::100.1:SYNC' service.",0x0000429C
+12:43:03.385,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x8003 name=<100.0:0x8003::100.1:SYNC> ",0x0000429C
+12:43:03.385,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x8003 <100.0:0x8003::100.1:SYNC>",0x0000429C
+12:43:03.385,3,"","ConnectionHandle.c",268,"TI_NN_CH_ClientConnect: Client Connection: 100.0:0x8003::100.1:SYNC",0x0000429C
+12:43:03.389,3,"","sync.c",385,"TI_NN_GetFileAttributes(): [100.0:0x8003::100.1:SYNC]: remoteNodePath</>",0x0000429C
+12:43:03.409,3,"","ConnectionHandle.c",291,"TI_NN_CH_ClientDisconnect: Client Disconnect: 100.0:0x8003::100.1:SYNC",0x0000429C
+12:43:03.409,3,"","ConnectionHandle.c",823,"TI_NN_CH:sendEClosePacket(): To: 100.1:SYNC",0x0000429C
+12:43:03.412,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x8003, name=100.0:0x8003::100.1:SYNC",0x0000429C
+12:43:03.412,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x8003 from list",0x0000429C
+12:43:03.416,3,"","service_manager.c",269,"ns_TI_NS_StartService(): Starting client-side service request: port 0x8004, '100.0:0x8004::100.1:SYNC' service.",0x0000429C
+12:43:03.416,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x8004 name=<100.0:0x8004::100.1:SYNC> ",0x0000429C
+12:43:03.416,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x8004 <100.0:0x8004::100.1:SYNC>",0x0000429C
+12:43:03.416,3,"","ConnectionHandle.c",268,"TI_NN_CH_ClientConnect: Client Connection: 100.0:0x8004::100.1:SYNC",0x0000429C
+12:43:03.417,3,"","sync.c",448,"TI_NN_DirEnumInit(): [100.0:0x8004::100.1:SYNC]: remoteFolder</>",0x0000429C
+12:43:03.700,3,"","ConnectionHandle.c",291,"TI_NN_CH_ClientDisconnect: Client Disconnect: 100.0:0x8004::100.1:SYNC",0x0000429C
+12:43:03.700,3,"","ConnectionHandle.c",823,"TI_NN_CH:sendEClosePacket(): To: 100.1:SYNC",0x0000429C
+12:43:03.705,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x8004, name=100.0:0x8004::100.1:SYNC",0x0000429C
+12:43:03.705,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x8004 from list",0x0000429C
+12:43:03.733,3,"","nodeinfo.c",441,"TI_NN_GetNodeInfo:100.1 Get node information.",0x0000429C
+12:43:03.733,3,"","service_manager.c",269,"ns_TI_NS_StartService(): Starting client-side service request: port 0x8005, '100.0:0x8005::100.1:INFO' service.",0x0000429C
+12:43:03.733,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x8005 name=<100.0:0x8005::100.1:INFO> ",0x0000429C
+12:43:03.733,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x8005 <100.0:0x8005::100.1:INFO>",0x0000429C
+12:43:03.733,3,"","ConnectionHandle.c",268,"TI_NN_CH_ClientConnect: Client Connection: 100.0:0x8005::100.1:INFO",0x0000429C
+12:43:03.857,3,"","ConnectionHandle.c",291,"TI_NN_CH_ClientDisconnect: Client Disconnect: 100.0:0x8005::100.1:INFO",0x0000429C
+12:43:03.857,3,"","ConnectionHandle.c",823,"TI_NN_CH:sendEClosePacket(): To: 100.1:INFO",0x0000429C
+12:43:03.861,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x8005, name=100.0:0x8005::100.1:INFO",0x0000429C
+12:43:03.861,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x8005 from list",0x0000429C
+12:43:06.302,3,"","service_manager.c",269,"ns_TI_NS_StartService(): Starting client-side service request: port 0x8006, '100.0:0x8006::100.1:SCREEN_CAPTURE' service.",0x0000429C
+12:43:06.302,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x8006 name=<100.0:0x8006::100.1:SCREEN_CAPTURE> ",0x0000429C
+12:43:06.302,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x8006 <100.0:0x8006::100.1:SCREEN_CAPTURE>",0x0000429C
+12:43:06.302,3,"","ConnectionHandle.c",268,"TI_NN_CH_ClientConnect: Client Connection: 100.0:0x8006::100.1:SCREEN_CAPTURE",0x0000429C
+12:43:06.378,3,"","ConnectionHandle.c",291,"TI_NN_CH_ClientDisconnect: Client Disconnect: 100.0:0x8006::100.1:SCREEN_CAPTURE",0x0000429C
+12:43:06.378,3,"","ConnectionHandle.c",823,"TI_NN_CH:sendEClosePacket(): To: 100.1:SCREEN_CAPTURE",0x0000429C
+12:43:06.383,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x8006, name=100.0:0x8006::100.1:SCREEN_CAPTURE",0x0000429C
+12:43:06.383,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x8006 from list",0x0000429C
+12:43:06.445,3,"","nodeinfo.c",441,"TI_NN_GetNodeInfo:100.1 Get node information.",0x0000429C
+12:43:06.445,3,"","service_manager.c",269,"ns_TI_NS_StartService(): Starting client-side service request: port 0x8007, '100.0:0x8007::100.1:INFO' service.",0x0000429C
+12:43:06.445,3,"","WS_Services.c",60,"WS_SV_addServiceToList(): service 0x8007 name=<100.0:0x8007::100.1:INFO> ",0x0000429C
+12:43:06.445,3,"","WirelessStack.c",312,"TI_WS_StartService(): added service 0x8007 <100.0:0x8007::100.1:INFO>",0x0000429C
+12:43:06.445,3,"","ConnectionHandle.c",268,"TI_NN_CH_ClientConnect: Client Connection: 100.0:0x8007::100.1:INFO",0x0000429C
+12:43:06.568,3,"","ConnectionHandle.c",291,"TI_NN_CH_ClientDisconnect: Client Disconnect: 100.0:0x8007::100.1:INFO",0x0000429C
+12:43:06.568,3,"","ConnectionHandle.c",823,"TI_NN_CH:sendEClosePacket(): To: 100.1:INFO",0x0000429C
+12:43:06.572,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x8007, name=100.0:0x8007::100.1:INFO",0x0000429C
+12:43:06.572,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x8007 from list",0x0000429C
+12:43:14.237,3,"","NodeHandle.c",448,"TI_NN_NH_UnregisterNotifyCallback: Unregistered NodeHandle Callback.",0x0000429C
+12:43:14.238,3,"","NavnetAPI.c",94,"TI_NN_Shutdown Called.",0x0000429C
+12:43:14.238,3,"","navstack.c",956,"NStack: TI_NS_AppClose called.",0x0000429C
+12:43:14.325,1,"","stream_manager.c",772,"CN_Read: failed: 100.1 (\\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec}), stopping receive thread.",0x00003C64
+12:43:14.325,2,"","stream_manager.c",806,"Finishing up REMOTE receive stream queue thread: 100.1;",0x00003C64
+12:43:15.242,3,"","NavStackRouter.c",129,"TI_NS_ShutdownConnectors Called.",0x0000429C
+12:43:15.243,3,"","navstack.c",458,"ns_TI_NS_ShutdownConnectors Called.",0x0000429C
+12:43:15.304,2,"","stream_manager.c",149,"Finishing up xmit hold queue thread: \\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec};",0x00004924
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: LOGIN...",0x0000429C
+12:43:15.771,3,"","service_manager.c",191,"ns_TI_NS_RemoveService(): port=0x4050, name=.NS_SVC.LOGIN",0x0000429C
+12:43:15.771,3,"","WirelessStack.c",350,"TI_WS_RemoveService(): removed service 0x4050 from list",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.771,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.771,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.772,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.772,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.772,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.772,3,"","NavNetService.c",222,"shutdownServices(): Stopping service: 0x0000...",0x0000429C
+12:43:15.772,3,"","NavNetService.c",281,"TI_NN_SS_isValidServiceNumber(): Invalid Service Number: 0x0000.",0x0000429C
+12:43:15.772,3,"","NavNetService.c",264,"TI_NN_SS_Destroy(): Destroyed All Services.",0x0000429C
+12:43:15.772,3,"","connection_manager.c",2004,"CM: UnregisterNotifyCallback called.",0x0000429C
+12:43:15.772,3,"","NodeHandle.c",96,"TI_NN_NH_Destroy: Unregistered NS Callback.",0x0000429C
+12:43:15.772,3,"","NodeHandle.c",107,"TI_NN_NH_Destroy: Destroyed.",0x0000429C
+12:43:15.772,3,"","NavStackRouter.c",96,"TI_NS_shutdownNavstack Called.",0x0000429C
+12:43:15.772,3,"","navstack.c",480,"ns_TI_NS_shutdownNavstack Called.",0x0000429C
+12:43:15.772,3,"","NavStackRouter.c",129,"TI_NS_ShutdownConnectors Called.",0x0000429C
+12:43:15.772,3,"","navstack.c",458,"ns_TI_NS_ShutdownConnectors Called.",0x0000429C
+12:43:15.772,2,"","stream_manager.c",398,"TI_NS_fail_all_io: Cancelling all pending IO for stream: 100.1",0x0000429C
+12:43:15.772,2,"","stream_manager.c",416,"TI_NS_fail_all_io: Cancelled all pending IO for stream: 100.1",0x0000429C
+12:43:15.772,2,"","connection_manager.c",1133,"CM: Waiting for recv and xmit hold threads to complete for outgoing node: \\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec}",0x0000429C
+12:43:15.772,2,"","connection_manager.c",1151,"CM: remove_remote_conn: Recv and xmit hold threads joined for node: \\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec}",0x0000429C
+12:43:15.773,2,"","connection_manager.c",767,"CM: Removed queues and threads for node: (0x19b7b610)",0x0000429C
+12:43:15.773,2,"","connection_manager.c",1160,"CM: Removed remote connection for node (\\?\USB#VID_0451&PID_E012#5&debe4e9&0&3#{c5b7f228-caff-42d5-a472-6b9eda7982ec})",0x0000429C
+12:43:15.773,2,"","stream_manager.c",530,"Finishing up LOCAL receive deferred queue thread: 100.0;",0x000033FC
+12:43:15.773,2,"","connection_manager.c",767,"CM: Removed queues and threads for node: (0x19b73110)",0x0000429C
+12:43:15.773,2,"","connection_manager.c",398,"CM: shutdown_conn_mgr: completed",0x0000429C
+12:43:15.773,3,"","NavnetAPI.c",106,"TI_NN_Shutdown Ended.",0x0000429C
